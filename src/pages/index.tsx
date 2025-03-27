@@ -63,6 +63,18 @@ const projects = [
     image: "/assets/scoutmc.png",
     href: "#",
   },
+  {
+    title: "Star SMP",
+    description: "Junior Developer at Star SMP (Bulky Star), A minecraft server which is closed now.",
+    image: "/assets/bulkystar.png",
+    href: "#",
+  },
+  {
+    title: "DevBytes Solutions [ Agency ]",
+    description: "Development Manager [ Highest Rank ] at DevBytes Solutions, A minecraft server & discord management provider which is a new agency.",
+    image: "/assets/devbytes.png",
+    href: "https://discord.gg/MFR2vrZDDu/",
+  },
 ];
 
 const services = [
