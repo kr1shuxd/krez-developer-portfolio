@@ -28,74 +28,55 @@ import VanillaTilt from "vanilla-tilt";
 import { motion } from "framer-motion";
 
 const aboutStats = [
-  { label: "Years of experience", value: "3+" },
-  { label: "Technologies mastered", value: "5+" },
-  { label: "Companies worked with", value: "15+" },
+  { label: "Years of experience", value: "2+" },
+  { label: "Servers developed/managed", value: "25+" },
 ];
 
 const projects = [
   {
-    title: "Unqueue",
-    description: "E-commerce platform for selling digital products",
-    image: "/assets/unqueue.webm",
-    href: "https://unqueue.shop/",
+    title: "FireMC",
+    description: "Administrator [ Management ] + Media Manager + Events Developer at FireMC, A lifesteal server with over 116,500+ Members.",
+    image: "/assets/firemc.png",
+    href: "https://discord.gg/firemc/",
   },
   {
-    title: "InfiniteVPS",
-    description: "High performance VPS hosting solution",
-    image: "/assets/infinitevps.webm",
+    title: "Mineplay",
+    description: "Executive [ 2nd Highest Rank ] + Development Manager at Minejoy, A minecraft server with over 1,250+ Members.",
+    image: "/assets/mineplay.png",
+    href: "https://discord.gg/mineplay/",
+  },
+  {
+    title: "RG Network",
+    description: "Developer at RG Network, A minecraft server with over 2,450 Members.",
+    image: "/assets/",
+    href: "https://discord.gg/rgnetwork/",
+  },
+  {
+    title: "ShadowEmpire",
+    description: "Development Manager [ Highest Rank ] at Shadow Empire, A minecraft server which is just going to begin.",
+    image: "/assets/shadowempire.png",
+    href: "https://discord.gg/shadowempire/",
+  },
+  {
+    title: "ScoutMC",
+    description: "Owner [ I made the entire server ] of ScoutMC, A minecraft server that was beating Huge servers like GreenMC at a time.",
+    image: "/assets/scoutmc.png",
     href: "#",
-  },
-  {
-    title: "TranslateBot",
-    description: "Powerful Multilingual Translation Bot for Discord",
-    image: "/assets/translate_bot.webm",
-    href: "https://translatebot.app/",
-  },
-  {
-    title: "Wrona",
-    description: "Robotics-focused technology company",
-    image: "/assets/wrona.jpeg",
-    href: "https://www.wrona.com/",
-  },
-  {
-    title: "This website",
-    description: "My personal website",
-    image: "/assets/portfolio.webm",
-    href: "https://github.com/wendoj/portfolio",
   },
 ];
 
 const services = [
   {
-    service: "Frontend Development",
+    service: "Configuration & Development",
     description:
-      "Creating stellar user interfaces and web experiences using the latest technologies.",
+      "I'm a configuration developer, looking to seek opportunities to develop minecraft servers.",
     icon: Code2,
   },
   {
-    service: "UX Design",
+    service: "Management",
     description:
-      "Building intuitive, user-centric designs that drive engagement and conversion.",
+      "I'm a well experienced & a professional staff/network manager.",
     icon: Frame,
-  },
-  {
-    service: "SEO Optimization",
-    description:
-      "Enhancing your website's visibility in search engines for increased organic traffic.",
-    icon: SearchCheck,
-  },
-  {
-    service: "Responsive Design",
-    description:
-      "Designing websites that look and perform equally well on all devices and screen sizes.",
-    icon: MonitorSmartphone,
-  },
-  {
-    service: "Backend Development",
-    description:
-      "Developing robust, scalable server-side logic for a wide range of web applications.",
-    icon: Eye,
   },
 ];
 
@@ -215,8 +196,8 @@ export default function Home() {
                 data-scroll-speed=".06"
                 className="mt-1 max-w-lg tracking-tight text-muted-foreground 2xl:text-xl"
               >
-                An experienced full-stack website developer with a passion for
-                crafting unique digital experiences.
+                An experienced configuration developer with a passion for
+                creating new minecraft servers & provide the best experience possible.
               </p>
             </div>
             <span
@@ -271,17 +252,13 @@ export default function Home() {
             <h2 className="py-16  pb-2 text-3xl font-light leading-normal tracking-tighter text-foreground xl:text-[40px]">
               I&apos;m an experienced full-stack developer proficient in{" "}
               <Link
-                href="https://create.t3.gg/"
+                href="#"
                 target="_blank"
                 className="underline"
               >
-                TypeScript, Tailwind, and Next.js
+                Plugins, Softwares, and Configuration.
               </Link>{" "}
-              since 2021. My experience spans from startups to mid-sized
-              companies, where I&apos;ve been instrumental in the entire product
-              design process; from ideation and wireframing, through
-              prototyping, to the delivery of the final product, all while
-              efficiently collaborating with cross-functional teams.
+              since 2022. Specializing in server configuration, optimization, and comprehensive team management across multiple minecraft servers and networks with a proven track record of success.
             </h2>
             <div className="grid grid-cols-2 gap-8 xl:grid-cols-3">
               {aboutStats.map((stat) => (
@@ -323,11 +300,11 @@ export default function Home() {
               ✨ Projects
             </span>
             <h2 className="mt-3 text-4xl font-semibold tracking-tight tracking-tighter xl:text-6xl">
-              Streamlined digital experiences.
+              Server experiences.
             </h2>
             <p className="mt-1.5 text-base tracking-tight text-muted-foreground xl:text-lg">
-              I&apos;ve worked on a variety of projects, from small websites to
-              large-scale web applications. Here are some of my favorites:
+              I&apos;ve worked on a variety of projects, from small servers to
+              large-scale networks. Here are some of my favorites:
             </p>
 
             {/* Carousel */}
