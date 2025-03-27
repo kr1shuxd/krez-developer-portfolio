@@ -29,7 +29,7 @@ export default function Footer() {
           <p className="text-xs text-muted-foreground">
             Made with ❤️ by{" "}
             <Link
-              href="https://github.com/wendoj"
+              href="https://github.com/i.krez"
               target="_blank"
               passHref
               className="text-foreground transition hover:text-primary"
@@ -50,7 +50,7 @@ export default function Footer() {
         >
           <Button variant={"outline"}>
             <MailIcon className="h-4 w-4 md:mr-2" />
-            <span className="hidden md:flex">wendoj@proton.me</span>
+            <span className="hidden md:flex">i.krezbusiness@gmail.com</span>
           </Button>
         </Link>
       </div>
