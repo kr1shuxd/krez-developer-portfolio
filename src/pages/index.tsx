@@ -218,7 +218,7 @@ export default function Home() {
               data-scroll-speed=".06"
               className="flex flex-row items-center space-x-1.5 pt-6"
             >
-              <Link href="mailto:wendoj@proton.me" passHref>
+              <Link href="mailto:i.krezbusiness@gmail.com" passHref>
                 <Button>
                   Get in touch <ChevronRight className="ml-1 h-4 w-4" />
                 </Button>
