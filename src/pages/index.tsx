@@ -48,7 +48,7 @@ const projects = [
   {
     title: "RG Network",
     description: "Developer at RG Network, A minecraft server with over 2,450 Members.",
-    image: "/assets/",
+    image: "/assets/rgnetwork.gif",
     href: "https://discord.gg/rgnetwork/",
   },
   {
